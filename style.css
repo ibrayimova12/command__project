@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #f1f0eb;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    background: url(image/Rectangle\ 1.png)center/cover no-repeat;
+    height: 100vh;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left ul {
+    display: flex;
+    color: white;
+    column-gap: 47px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #fff;
+}
+.header__left ul li:nth-child(2):after{
+    content: '';
+    background: url(image/Line.png)center/cover no-repeat;
+    width: 9px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: 200px;
+    bottom: 25px;
+}
+.header__left ul li:nth-child(1):after{
+    content: '';
+    background: url(image/Line.png)center/cover no-repeat;
+    width: 9px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: 50px;
+    bottom: 25px;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    column-gap: 21px;
+
+}
+
+.header__right button {
+    width: 250px;
+    height: 55px;
+    background: black;
+    color: white;
+}
+
+.header__right h6 {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+
+.header__right img {
+    width: 25px;
+    height: 25px;
+}
+
+.banner {
+    padding-top: 60px;
+}
+
+.banner__top {
+    display: flex;
+    align-items: center;
+    column-gap: 400px;
+}
+
+.banner__top ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    color: white;
+}
+
+.banner__text {
+    color: white;
+    top: 160px;
+    font-size: 30px;
+    position: relative;
+}
+
+.banner__text::after {
+    content: '';
+    background: url(image/Button.png)center/cover no-repeat;
+    width: 362px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service {
+    padding: 90px 50px;
+
+}
+
+.service__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__left {
+    background: url(image/Rectangle\ 4.png)center/cover no-repeat;
+    border-radius: 10px;
+    width: 658px;
+    height: 640px;
+    color: white;
+}
+
+.service__left button {
+    width: 150px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    background: none;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #4f4f4f;
+    position: absolute;
+    right: 30px;
+    bottom: -530px;
+    
+}
+
+.sercvice__card h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.12em;
+}
+
+.service__card {
+    padding: 30px;
+    position: relative;
+    color: white;
+}
+
+.service__right {
+    position: relative;
+    z-index: -1;
+}
+
+.service__right .service__card1,
+.service__card2 {
+    width: 658px;
+    height: 308px;
+    margin: 0 0 24px 24px;
+    color: white;
+    padding: 30px;
+}
+
+.service__card2 button {
+    width: 150px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    background: none;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #4f4f4f;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+}
+
+.service__card1 button {
+    width: 150px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    background: none;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #4f4f4f;
+    position: absolute;
+    right: 30px;
+    top: 220px;
+}
+
+.service__card1 {
+    background: url(image/Rectangle\ 5.png)center/cover no-repeat;
+}
+
+.service__card2 {
+    background: url(image/Rectangle\ 6.png)center/cover no-repeat;
+}
